@@ -26,6 +26,11 @@
   transform: scale(1) translate(-50%, -50%);
   transition: opacity 250ms, transform 250ms;
   padding: 40px;
+  @media screen and (max-width: 767px) {
+    width: 450px;
+    height: 609px ;
+    
+  }
 }
 
 .modal-close{

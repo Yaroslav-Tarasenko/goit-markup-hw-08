@@ -54,7 +54,7 @@
 
 .left-nav {
 	@media screen and (min-width: 768px) {
-		margin-left: 93px;
+		margin-right: auto;
 	}
 }
 
@@ -110,17 +110,13 @@
 
 .menu-item__text {
 	display: block;
-
 	padding: 0;
-
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--title-text-color);
-
 	transition: color var(--animation-duration) var(--timing-function);
-
 	&:hover,
 	&:focus {
 		color: var(--accent-color);
@@ -172,7 +168,7 @@
 	letter-spacing: 0.02em;
 	font-weight: 500;
 	letter-spacing: 0.02em;
-	color: var(--primary-text-color);
+	color: var(--header-contacts-color);
 	display: flex;
 	align-items: center;
 	transition: color var(--animation-duration) var(--timing-function);
