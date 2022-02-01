@@ -183,7 +183,6 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   background-color: #2f303a;
-  height: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -372,12 +371,14 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   background-color: #2f303a;
+  padding-bottom: 60px;
 }
 
 .footer-container{
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  
 }
 
 .logotype__footer {
