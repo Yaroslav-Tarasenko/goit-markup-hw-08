@@ -342,7 +342,7 @@
 }
 
 .subscribe__input-text{
-  width: 450px;
+  width: 100%;
   height: 50px;
   margin-bottom: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -371,6 +371,7 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   background-color: #2f303a;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -378,11 +379,12 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  
+  justify-content: space-around;
 }
 
 .logotype__footer {
   display: block;
+  text-align: center;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -404,12 +406,8 @@
   color: #ffffff;
 }
 
-.footer__addresses{
-  margin-left: 76px;
-  margin-bottom: 60px;
-}
-
 .contact__item {
+  text-align: center;
   margin-bottom: 9px;
     &:last-child{
     margin-bottom: 0px;
@@ -451,13 +449,9 @@
     }
 }
 
-.footer-social-part{
-  margin-left: 165px;
-}
-
 .footer-social__title{
   display: block;
-  text-align: start;
+  text-align: center;
   color: #ffffff;
   margin-bottom: 20px;
   font-family: Roboto;
@@ -522,7 +516,7 @@
 }
 
 .footer-subscribe {
-  margin-left: 166px;
+ margin-top: 60px;
 }
 
 .subscribe__form{

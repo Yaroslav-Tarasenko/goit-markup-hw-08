@@ -10,6 +10,10 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  @media screen and (max-width: 767px) {
+	  margin-right: auto;
+	  
+  }
 }
 
 .logotype__dark {
@@ -194,8 +198,8 @@
 		line-height: 1.16;
 	}
 	@media screen and (min-width: 768px) and (max-width: 1199px) {
-		padding-top: 21px;
 		margin-bottom: 10px;
+	
 	}
 }
 
@@ -205,7 +209,7 @@
 		margin-bottom: 32px;
 	}
 	@media screen and (min-width: 768px) and (max-width: 1199px) {
-		padding-bottom: 21px;
+		
 	}
 	@media screen and (min-width: 1200px) {
 		padding-bottom: 32px;
